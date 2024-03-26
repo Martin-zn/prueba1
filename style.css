@@ -1,7 +1,49 @@
-#div1{
+.div1{
     display: grid;
     justify-content: center;
     align-items: center;
     margin: auto;
 
 }
+
+.titulo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.lista{
+    margin-left: 10%;
+}
+
+.link{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    gap: 10%;
+}
+
+.img{
+    width: 250PX;
+    height: 100px;
+}
+
+.container{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    gap: 10%;
+}
+
+.perfil{
+    width: 300PX;
+    height: 400px;
+}
+
